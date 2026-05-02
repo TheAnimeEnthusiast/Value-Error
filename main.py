@@ -11,3 +11,5 @@ try:
 except Exception as c:
     print('There was an exception,',c)
 
+finally:
+    print("Hello!")
